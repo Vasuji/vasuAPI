@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VasuAPI", "VasuAPI\VasuAPI.csproj", "{ACD1D07C-7EE4-4914-AE17-5F6F4C3B272D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACD1D07C-7EE4-4914-AE17-5F6F4C3B272D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD1D07C-7EE4-4914-AE17-5F6F4C3B272D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD1D07C-7EE4-4914-AE17-5F6F4C3B272D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD1D07C-7EE4-4914-AE17-5F6F4C3B272D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D89BFB6-BF1B-4308-94D6-4DC67FCCD8C8}
+	EndGlobalSection
+EndGlobal
