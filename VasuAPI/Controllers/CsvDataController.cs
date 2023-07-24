@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
+using VasuAPI.Services;
 
 namespace VasuAPI.Controllers
 {
@@ -15,9 +16,13 @@ namespace VasuAPI.Controllers
         }
 
         [HttpGet]
+        [Route("GetCsvData", Name = "GetCsvData")]
         public ActionResult<List<User>> GetData(int count)
         {
             return _csvDataService.GetData(count);
         }
     }
 }
+
+
+

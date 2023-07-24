@@ -1,9 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using VasuAPI.Services;
+
 
 namespace VasuAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
+[DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
@@ -18,6 +22,7 @@ public class WeatherForecastController : ControllerBase
         _logger = logger;
     }
 
+    //This this is the main API call
     [HttpGet]
     [Route("GetWeatherForecast", Name = "GetWeatherForecast")]
     public IEnumerable<WeatherForecast> Get()
@@ -29,6 +34,11 @@ public class WeatherForecastController : ControllerBase
             Summary = Summaries[Random.Shared.Next(Summaries.Length)]
         })
         .ToArray();
+    }
+
+    private string GetDebuggerDisplay()
+    {
+        return ToString();
     }
 }
 

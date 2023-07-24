@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vasu/Projects/VasuAPI/VasuAPI/VasuAPI.csproj": {}
+    "/Users/vasu/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj": {}
   },
   "projects": {
-    "/Users/vasu/Projects/VasuAPI/VasuAPI/VasuAPI.csproj": {
+    "/Users/vasu/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vasu/Projects/VasuAPI/VasuAPI/VasuAPI.csproj",
+        "projectUniqueName": "/Users/vasu/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj",
         "projectName": "VasuAPI",
-        "projectPath": "/Users/vasu/Projects/VasuAPI/VasuAPI/VasuAPI.csproj",
+        "projectPath": "/Users/vasu/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj",
         "packagesPath": "/Users/vasu/.nuget/packages/",
-        "outputPath": "/Users/vasu/Projects/VasuAPI/VasuAPI/obj/",
+        "outputPath": "/Users/vasu/Documents/GitHub/vasuAPI/VasuAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/vasu/.nuget/NuGet/NuGet.Config"

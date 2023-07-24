@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{ACD1D07C-7EE4-4914-AE17-5F6F4C3B272D}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="VasuAPI/Services/Startup.cs">
+    <Files>
+      <File FileName="VasuAPI/Controllers/WeatherForecastController.cs" Line="7" Column="1" />
+      <File FileName="VasuAPI/Services/CsvDataService.cs" Line="32" Column="1" />
+      <File FileName="VasuAPI/Services/StockStatus.cs" Line="9" Column="23" />
+      <File FileName="VasuAPI/Services/TrafficDetail.cs" Line="2" Column="27" />
+      <File FileName="VasuAPI/Services/WeatherForecast.cs" Line="15" Column="1" />
+      <File FileName="VasuAPI/Controllers/TrafficDetailController.cs" Line="2" Column="24" />
+      <File FileName="VasuAPI/Controllers/CsvDataController.cs" Line="19" Column="51" />
+      <File FileName="VasuAPI/Controllers/StockMarketController.cs" Line="2" Column="24" />
+      <File FileName="VasuAPI/Services/User.cs" Line="10" Column="2" />
+      <File FileName="VasuAPI/Startup.cs" Line="20" Column="2" />
+      <File FileName="VasuAPI/Services/sample.csv" Line="1" Column="1" />
+      <File FileName="VasuAPI/Services/JsonDataService.json" Line="24" Column="20" />
+      <File FileName="VasuAPI/Controllers/HomeController.cs" Line="32" Column="2" />
+      <File FileName="VasuAPI/Services/path.cs" Line="6" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="VasuAPI" expanded="True">
+            <Node name="VasuAPI">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Startup.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.VasuAPI PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
