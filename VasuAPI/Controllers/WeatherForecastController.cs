@@ -1,13 +1,13 @@
-﻿using System.Diagnostics;
+﻿
 using Microsoft.AspNetCore.Mvc;
-using VasuAPI.Services;
+using VasuAPI.Models;
 
 
 namespace VasuAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-[DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
+
 public class WeatherForecastController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
@@ -36,9 +36,6 @@ public class WeatherForecastController : ControllerBase
         .ToArray();
     }
 
-    private string GetDebuggerDisplay()
-    {
-        return ToString();
-    }
+    
 }
 

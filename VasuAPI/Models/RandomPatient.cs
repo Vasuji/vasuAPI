@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VasuAPI.Services
+namespace VasuAPI.Models
 {
     public class RandomPatient
     {

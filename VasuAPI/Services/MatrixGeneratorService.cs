@@ -1,4 +1,5 @@
 ﻿using System;
+using VasuAPI.Models;
 
 namespace VasuAPI.Services
 {

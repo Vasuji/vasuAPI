@@ -1,5 +1,5 @@
 ﻿
-namespace VasuAPI.Services
+namespace VasuAPI.Models
 {
     public class TrafficDetail
     {

@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using VasuAPI.Services;
+using VasuAPI.Models;
 
 namespace VasuAPI.Controllers
 {

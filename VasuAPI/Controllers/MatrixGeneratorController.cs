@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using VasuAPI.Services;
+using VasuAPI.Models;
 
 namespace VasuAPI.Controllers
 {
@@ -9,6 +10,7 @@ namespace VasuAPI.Controllers
     public class MatrixController : ControllerBase
     {
         private readonly ILogger<MatrixController> _logger;
+
         private readonly IMatrixGeneratorService _matrixGeneratorService;
 
         public MatrixController(ILogger<MatrixController> logger, IMatrixGeneratorService matrixGeneratorService)

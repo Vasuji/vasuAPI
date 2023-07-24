@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using VasuAPI.Services;
+using VasuAPI.Models;
 
 namespace VasuAPI.Controllers
 {
@@ -12,6 +13,7 @@ namespace VasuAPI.Controllers
     public class RandomPatientController : ControllerBase
     {
         private readonly ILogger<RandomPatientController> _logger;
+
         private static readonly string[] Diseases = new[]
         {
             "Diabetes", "Hypertension", "Asthma", "Cancer", "Heart Disease"

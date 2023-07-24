@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/vasu/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj": {}
+    "/Users/dibakars/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj": {}
   },
   "projects": {
-    "/Users/vasu/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj": {
+    "/Users/dibakars/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/vasu/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj",
+        "projectUniqueName": "/Users/dibakars/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj",
         "projectName": "VasuAPI",
-        "projectPath": "/Users/vasu/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj",
-        "packagesPath": "/Users/vasu/.nuget/packages/",
-        "outputPath": "/Users/vasu/Documents/GitHub/vasuAPI/VasuAPI/obj/",
+        "projectPath": "/Users/dibakars/Documents/GitHub/vasuAPI/VasuAPI/VasuAPI.csproj",
+        "packagesPath": "/Users/dibakars/.nuget/packages/",
+        "outputPath": "/Users/dibakars/Documents/GitHub/vasuAPI/VasuAPI/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/vasu/.nuget/NuGet/NuGet.Config"
+          "/Users/dibakars/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "/usr/local/share/dotnet/sdk/7.0.306/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.304/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }
