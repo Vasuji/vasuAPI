@@ -1,8 +1,4 @@
-﻿using System;
-using System.Linq;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
+﻿using Microsoft.AspNetCore.Mvc;
 using VasuAPI.Services;
 using VasuAPI.Models;
 
@@ -13,23 +9,19 @@ namespace VasuAPI.Controllers
     public class RandomNumberController : ControllerBase
     {
         private readonly ILogger<RandomNumberController> _logger;
+        private readonly IRandomNumberService _randomNumberService;
 
-        public RandomNumberController(ILogger<RandomNumberController> logger)
+        public RandomNumberController(ILogger<RandomNumberController> logger, IRandomNumberService randomNumberService)
         {
             _logger = logger;
+            _randomNumberService = randomNumberService;
         }
 
-        //This is the main API call
         [HttpGet]
-        [Route("GetRandomNumbers", Name = "GetRandomNumbers")]
-        public IEnumerable<RandomNumber> Get()
+        public RandomNumberModel Get()
         {
-            return Enumerable.Range(1, 5).Select(index => new RandomNumber
-            {
-                Date = DateTime.Now.AddDays(index),
-                Number = Random.Shared.Next(-1000, 1000), // Generates random numbers between -1000 and 1000
-            })
-            .ToArray();
+            var number = _randomNumberService.GenerateRandomNumber(1, 100);
+            return new RandomNumberModel { Number = number };
         }
     }
 }
